@@ -150,10 +150,10 @@ function AAPClassic.QH.UpdateMapIdHorde()
 	end
 	--- 25-26 Thousand Needles ---
 	if (IsQuestFlaggedCompleted(5881) and not IsQuestFlaggedCompleted(913)) then
-		AAPClassic.QH.ZoneNr = "25-26ThousandNeedles"
+		AAPClassic.QH.ZoneNr = "26-28Ashenvale"
 	end
 	--- 26-28 Ashenvale ---
-	if (IsQuestFlaggedCompleted(913) and not IsQuestFlaggedCompleted(1196)) then
+	if (IsQuestFlaggedCompleted(868) and not IsQuestFlaggedCompleted(1196)) then
 		AAPClassic.QH.ZoneNr = "26-28Ashenvale"
 	end
 	--- 28-30 Thousand Needles & Hillsbrad Foothills ---
